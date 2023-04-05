@@ -1,0 +1,600 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>31/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 03 17:32:02 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>208 seconds (208575 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.CartPageTest.verifyRemoveOrderTest()'><b>verifyRemoveOrderTest</b><br>Test class: test.CartPageTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@name=&apos;remove-sauce-labs-bike-light&apos;]&quot;}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;LAPTOP-T3SB9B3U&apos;, ip: &apos;192.168.43.245&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db6967421a50f2926f69187ed135269c, findElement {using=xpath, value=//button[@name=&apos;remove-sauce-labs-bike-light&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\khama\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62774}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62774/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db6967421a50f2926f69187ed135269c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pom.CartPage.verifyRemoveOrderElement(CartPage.java:40)
+	at test.CartPageTest.verifyRemoveOrderTest(CartPageTest.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1321433666", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1321433666'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@name=&apos;remove-sauce-labs-bike-light&apos;]&quot;}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;LAPTOP-T3SB9B3U&apos;, ip: &apos;192.168.43.245&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db6967421a50f2926f69187ed135269c, findElement {using=xpath, value=//button[@name=&apos;remove-sauce-labs-bike-light&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\khama\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62774}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62774/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db6967421a50f2926f69187ed135269c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pom.CartPage.verifyRemoveOrderElement(CartPage.java:40)
+	at test.CartPageTest.verifyRemoveOrderTest(CartPageTest.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>10</td>
+<td>test.CartPageTest@3349e9bb</td></tr>
+<tr>
+<td title='test.InventoryPageTest.verifySortListTest()'><b>verifySortListTest</b><br>Test class: test.InventoryPageTest</td>
+<td><div><pre>java.lang.AssertionError: expected [Name (A to Z)
+Name (Z to A)
+Price (low to high)
+Price (high to low)] but found [Name (A to Z) Name (Z to A) Price (low to high) Price (high to low)]
+	at test.InventoryPageTest.verifySortListTest(InventoryPageTest.java:115)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1332728065", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1332728065'><pre>java.lang.AssertionError: expected [Name (A to Z)
+Name (Z to A)
+Price (low to high)
+Price (high to low)] but found [Name (A to Z) Name (Z to A) Price (low to high) Price (high to low)]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at test.InventoryPageTest.verifySortListTest(InventoryPageTest.java:115)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>test.InventoryPageTest@3c19aaa5</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.CartPageTest.verifyCheckOutButton()'><b>verifyCheckOutButton</b><br>Test class: test.CartPageTest<br/>
+<a href="#Output-604405894" onClick='toggleBox("Output-604405894", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-604405894" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-604405894">
+The Url of Next Page is https://www.saucedemo.com/checkout-step-one.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CartPageTest@3349e9bb</td></tr>
+<tr>
+<td title='test.CheckOutOverviewTest.verifyPriceTest()'><b>verifyPriceTest</b><br>Test class: test.CheckOutOverviewTest<br/>
+<a href="#Output-187723824" onClick='toggleBox("Output-187723824", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-187723824" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-187723824">
+The price Info is  : true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CheckOutOverviewTest@38d8f54a</td></tr>
+<tr>
+<td title='test.CheckOutCompleteTest.verifyLogoTest()'><b>verifyLogoTest</b><br>Test class: test.CheckOutCompleteTest<br/>
+<a href="#Output-549207679" onClick='toggleBox("Output-549207679", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-549207679" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-549207679">
+Logotrue<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CheckOutCompleteTest@49e53c76</td></tr>
+<tr>
+<td title='test.CheckOutCartTest.verifyInformation()'><b>verifyInformation</b><br>Test class: test.CheckOutCartTest<br/>
+<a href="#Output-16354559" onClick='toggleBox("Output-16354559", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-16354559" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-16354559">
+The info URL is https://www.saucedemo.com/checkout-step-two.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CheckOutCartTest@409bf450</td></tr>
+<tr>
+<td title='test.InventoryPageTest.verifyProductTextTest()'><b>verifyProductTextTest</b><br>Test class: test.InventoryPageTest<br/>
+<a href="#Output-443401706" onClick='toggleBox("Output-443401706", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-443401706" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-443401706">
+Spelling of product text is : Products<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.InventoryPageTest@3c19aaa5</td></tr>
+<tr>
+<td title='test.CheckOutCartTest.verifyCheckoutTitleText()'><b>verifyCheckoutTitleText</b><br>Test class: test.CheckOutCartTest<br/>
+<a href="#Output-112176935" onClick='toggleBox("Output-112176935", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-112176935" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-112176935">
+The Title Of Checkout Page Is :Checkout: Your Information<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CheckOutCartTest@409bf450</td></tr>
+<tr>
+<td title='test.CheckOutCartTest.verifyCancelBtn()'><b>verifyCancelBtn</b><br>Test class: test.CheckOutCartTest<br/>
+<a href="#Output-464583224" onClick='toggleBox("Output-464583224", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-464583224" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-464583224">
+The expected URL is : https://www.saucedemo.com/cart.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CheckOutCartTest@409bf450</td></tr>
+<tr>
+<td title='test.CheckOutOverviewTest.verifyOverviewTitleTest()'><b>verifyOverviewTitleTest</b><br>Test class: test.CheckOutOverviewTest<br/>
+<a href="#Output-777813205" onClick='toggleBox("Output-777813205", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-777813205" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-777813205">
+The Overview Page TItle is Checkout: Overview<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CheckOutOverviewTest@38d8f54a</td></tr>
+<tr>
+<td title='test.InventoryPageTest.verifyProductLogoTest()'><b>verifyProductLogoTest</b><br>Test class: test.InventoryPageTest<br/>
+<a href="#Output-63259849" onClick='toggleBox("Output-63259849", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-63259849" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-63259849">
+Product lebal is : true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.InventoryPageTest@3c19aaa5</td></tr>
+<tr>
+<td title='test.CheckOutOverviewTest.verifyPaymentInfoTest()'><b>verifyPaymentInfoTest</b><br>Test class: test.CheckOutOverviewTest<br/>
+<a href="#Output-1076358635" onClick='toggleBox("Output-1076358635", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1076358635" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1076358635">
+the Payment info is true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CheckOutOverviewTest@38d8f54a</td></tr>
+<tr>
+<td title='test.CheckOutOverviewTest.verifyCancelBtnTest()'><b>verifyCancelBtnTest</b><br>Test class: test.CheckOutOverviewTest<br/>
+<a href="#Output-322765937" onClick='toggleBox("Output-322765937", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-322765937" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-322765937">
+After click Cancel button URl shows https://www.saucedemo.com/inventory.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CheckOutOverviewTest@38d8f54a</td></tr>
+<tr>
+<td title='test.CheckOutOverviewTest.verifyFinishBtnTest()'><b>verifyFinishBtnTest</b><br>Test class: test.CheckOutOverviewTest<br/>
+<a href="#Output-2017601039" onClick='toggleBox("Output-2017601039", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2017601039" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2017601039">
+After click finish Button Url Shows https://www.saucedemo.com/checkout-complete.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CheckOutOverviewTest@38d8f54a</td></tr>
+<tr>
+<td title='test.CartPageTest.verifyCartTitkeTest()'><b>verifyCartTitkeTest</b><br>Test class: test.CartPageTest<br/>
+<a href="#Output-789654238" onClick='toggleBox("Output-789654238", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-789654238" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-789654238">
+The title is : Your Cart<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CartPageTest@3349e9bb</td></tr>
+<tr>
+<td title='test.CheckOutCompleteTest.verifyHeaderTest()'><b>verifyHeaderTest</b><br>Test class: test.CheckOutCompleteTest<br/>
+<a href="#Output-1842714758" onClick='toggleBox("Output-1842714758", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1842714758" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1842714758">
+The complete Page Header is : Thank you for your order!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CheckOutCompleteTest@49e53c76</td></tr>
+<tr>
+<td title='test.InventoryPageTest.verifyRemoveBtnTest()'><b>verifyRemoveBtnTest</b><br>Test class: test.InventoryPageTest<br/>
+<a href="#Output-1920566957" onClick='toggleBox("Output-1920566957", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1920566957" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1920566957">
+The Url is : https://www.saucedemo.com/inventory.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.InventoryPageTest@3c19aaa5</td></tr>
+<tr>
+<td title='test.CheckOutOverviewTest.verifyShipInfoTest()'><b>verifyShipInfoTest</b><br>Test class: test.CheckOutOverviewTest<br/>
+<a href="#Output-378787077" onClick='toggleBox("Output-378787077", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-378787077" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-378787077">
+The shipment Info is : true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CheckOutOverviewTest@38d8f54a</td></tr>
+<tr>
+<td title='test.CheckOutCompleteTest.verifyTitleTest()'><b>verifyTitleTest</b><br>Test class: test.CheckOutCompleteTest<br/>
+<a href="#Output-816895399" onClick='toggleBox("Output-816895399", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-816895399" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-816895399">
+complete TItle is Checkout: Complete!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CheckOutCompleteTest@49e53c76</td></tr>
+<tr>
+<td title='test.InventoryPageTest.verifyAddTOCart()'><b>verifyAddTOCart</b><br>Test class: test.InventoryPageTest<br/>
+<a href="#Output-2137741298" onClick='toggleBox("Output-2137741298", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2137741298" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2137741298">
+Total count : 2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.InventoryPageTest@3c19aaa5</td></tr>
+<tr>
+<td title='test.SLoginTest.verifyTitleTest()'><b>verifyTitleTest</b><br>Test class: test.SLoginTest<br/>
+<a href="#Output-2144965699" onClick='toggleBox("Output-2144965699", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2144965699" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2144965699">
+Login Page Title is : Swag Labs<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.SLoginTest@55183b20</td></tr>
+<tr>
+<td title='test.CheckOutCompleteTest.verifyBackBtn()'><b>verifyBackBtn</b><br>Test class: test.CheckOutCompleteTest<br/>
+<a href="#Output-1282325234" onClick='toggleBox("Output-1282325234", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1282325234" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1282325234">
+After click on Back Button :https://www.saucedemo.com/inventory.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CheckOutCompleteTest@49e53c76</td></tr>
+<tr>
+<td title='test.InventoryPageTest.verifyCartPageTest()'><b>verifyCartPageTest</b><br>Test class: test.InventoryPageTest<br/>
+<a href="#Output-508122132" onClick='toggleBox("Output-508122132", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-508122132" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-508122132">
+The Cart Page Url is : https://www.saucedemo.com/cart.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.InventoryPageTest@3c19aaa5</td></tr>
+<tr>
+<td title='test.CartPageTest.verifyMenuBarText()'><b>verifyMenuBarText</b><br>Test class: test.CartPageTest<br/>
+<a href="#Output-605141301" onClick='toggleBox("Output-605141301", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-605141301" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-605141301">
+The Url is : https://www.saucedemo.com/inventory.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CartPageTest@3349e9bb</td></tr>
+<tr>
+<td title='test.CheckOutOverviewTest.verifytotalPaymentinfoTest()'><b>verifytotalPaymentinfoTest</b><br>Test class: test.CheckOutOverviewTest<br/>
+<a href="#Output-817012565" onClick='toggleBox("Output-817012565", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-817012565" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-817012565">
+The Total payment info is :true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CheckOutOverviewTest@38d8f54a</td></tr>
+<tr>
+<td title='test.CheckOutCompleteTest.verifyTextTest()'><b>verifyTextTest</b><br>Test class: test.CheckOutCompleteTest<br/>
+<a href="#Output-482728105" onClick='toggleBox("Output-482728105", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-482728105" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-482728105">
+TEXT true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CheckOutCompleteTest@49e53c76</td></tr>
+<tr>
+<td title='test.SLoginTest.verifyLoginTest()'><b>verifyLoginTest</b><br>Test class: test.SLoginTest<br/>
+<a href="#Output-162821120" onClick='toggleBox("Output-162821120", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-162821120" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-162821120">
+Inventory page Url is : https://www.saucedemo.com/inventory.html<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.SLoginTest@55183b20</td></tr>
+<tr>
+<td title='test.InventoryPageTest.verifyTwitterElementTest()'><b>verifyTwitterElementTest</b><br>Test class: test.InventoryPageTest<br/>
+<a href="#Output-92262027" onClick='toggleBox("Output-92262027", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-92262027" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-92262027">
+Twitter Element is https://twitter.com/saucelabs<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>test.InventoryPageTest@3c19aaa5</td></tr>
+<tr>
+<td title='test.InventoryPageTest.verifyProductTshirtTextTest()'><b>verifyProductTshirtTextTest</b><br>Test class: test.InventoryPageTest<br/>
+<a href="#Output-1978471002" onClick='toggleBox("Output-1978471002", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1978471002" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1978471002">
+The product url is https://www.saucedemo.com/inventory-item.html?id=1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.InventoryPageTest@3c19aaa5</td></tr>
+<tr>
+<td title='test.SLoginTest.verifyLoginLogoTest()'><b>verifyLoginLogoTest</b><br>Test class: test.SLoginTest<br/>
+<a href="#Output-1123830468" onClick='toggleBox("Output-1123830468", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1123830468" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1123830468">
+Login Page Logo is :Swag Labs<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.SLoginTest@55183b20</td></tr>
+<tr>
+<td title='test.InventoryPageTest.verifyImgTest()'><b>verifyImgTest</b><br>Test class: test.InventoryPageTest<br/>
+<a href="#Output-493294557" onClick='toggleBox("Output-493294557", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-493294557" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-493294557">
+Product Image is true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.InventoryPageTest@3c19aaa5</td></tr>
+<tr>
+<td title='test.CartPageTest.verifyContinueShop()'><b>verifyContinueShop</b><br>Test class: test.CartPageTest<br/>
+<a href="#Output-661868623" onClick='toggleBox("Output-661868623", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-661868623" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-661868623">
+The Actual Url is : https://www.saucedemo.com/inventory.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.CartPageTest@3349e9bb</td></tr>
+<tr>
+<td title='test.SLoginTest.verifyLoginUrlTest()'><b>verifyLoginUrlTest</b><br>Test class: test.SLoginTest<br/>
+<a href="#Output-2120344156" onClick='toggleBox("Output-2120344156", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2120344156" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2120344156">
+Login Page URL is :https://www.saucedemo.com/<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.SLoginTest@55183b20</td></tr>
+</table><p>
+</body>
+</html>

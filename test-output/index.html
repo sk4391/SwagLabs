@@ -1,0 +1,1551 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\khama\testingpractice\ProjectSwagLab\src\test\resources\completeProjectRun\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">33 methods, 2 failed,   31 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CartPageTest" class="method navigator-link" hash-for-method="verifyRemoveOrderTest">verifyRemoveOrderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.InventoryPageTest" class="method navigator-link" hash-for-method="verifySortListTest">verifySortListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.InventoryPageTest" class="method navigator-link" hash-for-method="verifyAddTOCart">verifyAddTOCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CheckOutCompleteTest" class="method navigator-link" hash-for-method="verifyBackBtn">verifyBackBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CheckOutCartTest" class="method navigator-link" hash-for-method="verifyCancelBtn">verifyCancelBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CheckOutOverviewTest" class="method navigator-link" hash-for-method="verifyCancelBtnTest">verifyCancelBtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.InventoryPageTest" class="method navigator-link" hash-for-method="verifyCartPageTest">verifyCartPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CartPageTest" class="method navigator-link" hash-for-method="verifyCartTitkeTest">verifyCartTitkeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CartPageTest" class="method navigator-link" hash-for-method="verifyCheckOutButton">verifyCheckOutButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CheckOutCartTest" class="method navigator-link" hash-for-method="verifyCheckoutTitleText">verifyCheckoutTitleText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CartPageTest" class="method navigator-link" hash-for-method="verifyContinueShop">verifyContinueShop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CheckOutOverviewTest" class="method navigator-link" hash-for-method="verifyFinishBtnTest">verifyFinishBtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CheckOutCompleteTest" class="method navigator-link" hash-for-method="verifyHeaderTest">verifyHeaderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.InventoryPageTest" class="method navigator-link" hash-for-method="verifyImgTest">verifyImgTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CheckOutCartTest" class="method navigator-link" hash-for-method="verifyInformation">verifyInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SLoginTest" class="method navigator-link" hash-for-method="verifyLoginLogoTest">verifyLoginLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SLoginTest" class="method navigator-link" hash-for-method="verifyLoginTest">verifyLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SLoginTest" class="method navigator-link" hash-for-method="verifyLoginUrlTest">verifyLoginUrlTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CheckOutCompleteTest" class="method navigator-link" hash-for-method="verifyLogoTest">verifyLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CartPageTest" class="method navigator-link" hash-for-method="verifyMenuBarText">verifyMenuBarText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CheckOutOverviewTest" class="method navigator-link" hash-for-method="verifyOverviewTitleTest">verifyOverviewTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CheckOutOverviewTest" class="method navigator-link" hash-for-method="verifyPaymentInfoTest">verifyPaymentInfoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CheckOutOverviewTest" class="method navigator-link" hash-for-method="verifyPriceTest">verifyPriceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.InventoryPageTest" class="method navigator-link" hash-for-method="verifyProductLogoTest">verifyProductLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.InventoryPageTest" class="method navigator-link" hash-for-method="verifyProductTextTest">verifyProductTextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.InventoryPageTest" class="method navigator-link" hash-for-method="verifyProductTshirtTextTest">verifyProductTshirtTextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.InventoryPageTest" class="method navigator-link" hash-for-method="verifyRemoveBtnTest">verifyRemoveBtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CheckOutOverviewTest" class="method navigator-link" hash-for-method="verifyShipInfoTest">verifyShipInfoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CheckOutCompleteTest" class="method navigator-link" hash-for-method="verifyTextTest">verifyTextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CheckOutCompleteTest" class="method navigator-link" hash-for-method="verifyTitleTest">verifyTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SLoginTest" class="method navigator-link" hash-for-method="verifyTitleTest">verifyTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.InventoryPageTest" class="method navigator-link" hash-for-method="verifyTwitterElementTest">verifyTwitterElementTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CheckOutOverviewTest" class="method navigator-link" hash-for-method="verifytotalPaymentinfoTest">verifytotalPaymentinfoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.CartPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRemoveOrderTest">
+                  </a> <!-- verifyRemoveOrderTest -->
+                  <span class="method-name">verifyRemoveOrderTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@name=&apos;remove-sauce-labs-bike-light&apos;]&quot;}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;LAPTOP-T3SB9B3U&apos;, ip: &apos;192.168.43.245&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db6967421a50f2926f69187ed135269c, findElement {using=xpath, value=//button[@name=&apos;remove-sauce-labs-bike-light&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\khama\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62774}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62774/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db6967421a50f2926f69187ed135269c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pom.CartPage.verifyRemoveOrderElement(CartPage.java:40)
+	at test.CartPageTest.verifyRemoveOrderTest(CartPageTest.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.InventoryPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortListTest">
+                  </a> <!-- verifySortListTest -->
+                  <span class="method-name">verifySortListTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Name (A to Z)
+Name (Z to A)
+Price (low to high)
+Price (high to low)] but found [Name (A to Z) Name (Z to A) Price (low to high) Price (high to low)]
+	at test.InventoryPageTest.verifySortListTest(InventoryPageTest.java:115)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.CheckOutCompleteTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBackBtn">
+                  </a> <!-- verifyBackBtn -->
+                  <span class="method-name">verifyBackBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHeaderTest">
+                  </a> <!-- verifyHeaderTest -->
+                  <span class="method-name">verifyHeaderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogoTest">
+                  </a> <!-- verifyLogoTest -->
+                  <span class="method-name">verifyLogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTextTest">
+                  </a> <!-- verifyTextTest -->
+                  <span class="method-name">verifyTextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleTest">
+                  </a> <!-- verifyTitleTest -->
+                  <span class="method-name">verifyTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.SLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginLogoTest">
+                  </a> <!-- verifyLoginLogoTest -->
+                  <span class="method-name">verifyLoginLogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest">
+                  </a> <!-- verifyLoginTest -->
+                  <span class="method-name">verifyLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginUrlTest">
+                  </a> <!-- verifyLoginUrlTest -->
+                  <span class="method-name">verifyLoginUrlTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleTest">
+                  </a> <!-- verifyTitleTest -->
+                  <span class="method-name">verifyTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.CartPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartTitkeTest">
+                  </a> <!-- verifyCartTitkeTest -->
+                  <span class="method-name">verifyCartTitkeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckOutButton">
+                  </a> <!-- verifyCheckOutButton -->
+                  <span class="method-name">verifyCheckOutButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyContinueShop">
+                  </a> <!-- verifyContinueShop -->
+                  <span class="method-name">verifyContinueShop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMenuBarText">
+                  </a> <!-- verifyMenuBarText -->
+                  <span class="method-name">verifyMenuBarText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.CheckOutOverviewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCancelBtnTest">
+                  </a> <!-- verifyCancelBtnTest -->
+                  <span class="method-name">verifyCancelBtnTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFinishBtnTest">
+                  </a> <!-- verifyFinishBtnTest -->
+                  <span class="method-name">verifyFinishBtnTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOverviewTitleTest">
+                  </a> <!-- verifyOverviewTitleTest -->
+                  <span class="method-name">verifyOverviewTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPaymentInfoTest">
+                  </a> <!-- verifyPaymentInfoTest -->
+                  <span class="method-name">verifyPaymentInfoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPriceTest">
+                  </a> <!-- verifyPriceTest -->
+                  <span class="method-name">verifyPriceTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyShipInfoTest">
+                  </a> <!-- verifyShipInfoTest -->
+                  <span class="method-name">verifyShipInfoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytotalPaymentinfoTest">
+                  </a> <!-- verifytotalPaymentinfoTest -->
+                  <span class="method-name">verifytotalPaymentinfoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.CheckOutCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCancelBtn">
+                  </a> <!-- verifyCancelBtn -->
+                  <span class="method-name">verifyCancelBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckoutTitleText">
+                  </a> <!-- verifyCheckoutTitleText -->
+                  <span class="method-name">verifyCheckoutTitleText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInformation">
+                  </a> <!-- verifyInformation -->
+                  <span class="method-name">verifyInformation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.InventoryPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddTOCart">
+                  </a> <!-- verifyAddTOCart -->
+                  <span class="method-name">verifyAddTOCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartPageTest">
+                  </a> <!-- verifyCartPageTest -->
+                  <span class="method-name">verifyCartPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyImgTest">
+                  </a> <!-- verifyImgTest -->
+                  <span class="method-name">verifyImgTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductLogoTest">
+                  </a> <!-- verifyProductLogoTest -->
+                  <span class="method-name">verifyProductLogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductTextTest">
+                  </a> <!-- verifyProductTextTest -->
+                  <span class="method-name">verifyProductTextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductTshirtTextTest">
+                  </a> <!-- verifyProductTshirtTextTest -->
+                  <span class="method-name">verifyProductTshirtTextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRemoveBtnTest">
+                  </a> <!-- verifyRemoveBtnTest -->
+                  <span class="method-name">verifyRemoveBtnTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTwitterElementTest">
+                  </a> <!-- verifyTwitterElementTest -->
+                  <span class="method-name">verifyTwitterElementTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\khama\testingpractice\ProjectSwagLab\src\test\resources\completeProjectRun\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.SLoginTest&quot;/&gt;
+      &lt;class name=&quot;test.InventoryPageTest&quot;/&gt;
+      &lt;class name=&quot;test.CartPageTest&quot;/&gt;
+      &lt;class name=&quot;test.CheckOutCartTest&quot;/&gt;
+      &lt;class name=&quot;test.CheckOutOverviewTest&quot;/&gt;
+      &lt;class name=&quot;test.CheckOutCompleteTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLoginLogoTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLoginUrlTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductLogoTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductTextTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(33);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyRemoveOrderTest')
+data.setCell(0, 2, 'test.CartPageTest')
+data.setCell(0, 3, 10048);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyTwitterElementTest')
+data.setCell(1, 2, 'test.InventoryPageTest')
+data.setCell(1, 3, 7833);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyLoginTest')
+data.setCell(2, 2, 'test.SLoginTest')
+data.setCell(2, 3, 1486);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyRemoveBtnTest')
+data.setCell(3, 2, 'test.InventoryPageTest')
+data.setCell(3, 3, 801);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyAddTOCart')
+data.setCell(4, 2, 'test.InventoryPageTest')
+data.setCell(4, 3, 712);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyProductTshirtTextTest')
+data.setCell(5, 2, 'test.InventoryPageTest')
+data.setCell(5, 3, 494);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyCartPageTest')
+data.setCell(6, 2, 'test.InventoryPageTest')
+data.setCell(6, 3, 405);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyInformation')
+data.setCell(7, 2, 'test.CheckOutCartTest')
+data.setCell(7, 3, 385);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyMenuBarText')
+data.setCell(8, 2, 'test.CartPageTest')
+data.setCell(8, 3, 327);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifySortListTest')
+data.setCell(9, 2, 'test.InventoryPageTest')
+data.setCell(9, 3, 207);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyProductLogoTest')
+data.setCell(10, 2, 'test.InventoryPageTest')
+data.setCell(10, 3, 201);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyCancelBtnTest')
+data.setCell(11, 2, 'test.CheckOutOverviewTest')
+data.setCell(11, 3, 158);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyContinueShop')
+data.setCell(12, 2, 'test.CartPageTest')
+data.setCell(12, 3, 157);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyFinishBtnTest')
+data.setCell(13, 2, 'test.CheckOutOverviewTest')
+data.setCell(13, 3, 154);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyBackBtn')
+data.setCell(14, 2, 'test.CheckOutCompleteTest')
+data.setCell(14, 3, 134);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyImgTest')
+data.setCell(15, 2, 'test.InventoryPageTest')
+data.setCell(15, 3, 126);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyCheckOutButton')
+data.setCell(16, 2, 'test.CartPageTest')
+data.setCell(16, 3, 117);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyLoginLogoTest')
+data.setCell(17, 2, 'test.SLoginTest')
+data.setCell(17, 3, 115);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyCancelBtn')
+data.setCell(18, 2, 'test.CheckOutCartTest')
+data.setCell(18, 3, 96);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyLoginUrlTest')
+data.setCell(19, 2, 'test.SLoginTest')
+data.setCell(19, 3, 73);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyTitleTest')
+data.setCell(20, 2, 'test.SLoginTest')
+data.setCell(20, 3, 65);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyProductTextTest')
+data.setCell(21, 2, 'test.InventoryPageTest')
+data.setCell(21, 3, 53);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyLogoTest')
+data.setCell(22, 2, 'test.CheckOutCompleteTest')
+data.setCell(22, 3, 44);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyTextTest')
+data.setCell(23, 2, 'test.CheckOutCompleteTest')
+data.setCell(23, 3, 44);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyCartTitkeTest')
+data.setCell(24, 2, 'test.CartPageTest')
+data.setCell(24, 3, 39);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyHeaderTest')
+data.setCell(25, 2, 'test.CheckOutCompleteTest')
+data.setCell(25, 3, 38);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyPriceTest')
+data.setCell(26, 2, 'test.CheckOutOverviewTest')
+data.setCell(26, 3, 33);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyTitleTest')
+data.setCell(27, 2, 'test.CheckOutCompleteTest')
+data.setCell(27, 3, 32);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyPaymentInfoTest')
+data.setCell(28, 2, 'test.CheckOutOverviewTest')
+data.setCell(28, 3, 31);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifytotalPaymentinfoTest')
+data.setCell(29, 2, 'test.CheckOutOverviewTest')
+data.setCell(29, 3, 30);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyShipInfoTest')
+data.setCell(30, 2, 'test.CheckOutOverviewTest')
+data.setCell(30, 3, 29);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyOverviewTitleTest')
+data.setCell(31, 2, 'test.CheckOutOverviewTest')
+data.setCell(31, 3, 28);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verifyCheckoutTitleText')
+data.setCell(32, 2, 'test.CheckOutCartTest')
+data.setCell(32, 3, 26);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCheckOutButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The Url of Next Page is https://www.saucedemo.com/checkout-step-one.html</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyPriceTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The price Info is  : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLogoTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Logotrue</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyInformation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The info URL is https://www.saucedemo.com/checkout-step-two.html</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyProductTextTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Spelling of product text is : Products</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCheckoutTitleText</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The Title Of Checkout Page Is :Checkout: Your Information</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCancelBtn</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The expected URL is : https://www.saucedemo.com/cart.html</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyOverviewTitleTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The Overview Page TItle is Checkout: Overview</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyProductLogoTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Product lebal is : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyPaymentInfoTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">the Payment info is true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCancelBtnTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">After click Cancel button URl shows https://www.saucedemo.com/inventory.html</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyFinishBtnTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">After click finish Button Url Shows https://www.saucedemo.com/checkout-complete.html</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCartTitkeTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The title is : Your Cart</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyHeaderTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The complete Page Header is : Thank you for your order!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyRemoveBtnTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The Url is : https://www.saucedemo.com/inventory.html</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyShipInfoTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The shipment Info is : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTitleTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">complete TItle is Checkout: Complete!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAddTOCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Total count : 2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTitleTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login Page Title is : Swag Labs</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyBackBtn</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">After click on Back Button :https://www.saucedemo.com/inventory.html</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCartPageTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The Cart Page Url is : https://www.saucedemo.com/cart.html</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyMenuBarText</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The Url is : https://www.saucedemo.com/inventory.html</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifytotalPaymentinfoTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The Total payment info is :true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTextTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TEXT true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoginTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Inventory page Url is : https://www.saucedemo.com/inventory.html</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTwitterElementTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Twitter Element is https://twitter.com/saucelabs</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyProductTshirtTextTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The product url is https://www.saucedemo.com/inventory-item.html?id=1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoginLogoTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login Page Logo is :Swag Labs</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyImgTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Product Image is true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyContinueShop</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The Actual Url is : https://www.saucedemo.com/inventory.html</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoginUrlTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login Page URL is :https://www.saucedemo.com/</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CartPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">configureReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CheckOutCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">configureReport</span>
+                <span class="method-start">1353 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CheckOutCompleteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">configureReport</span>
+                <span class="method-start">1356 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CheckOutOverviewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">configureReport</span>
+                <span class="method-start">1363 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.InventoryPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">configureReport</span>
+                <span class="method-start">1367 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.SLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">configureReport</span>
+                <span class="method-start">1369 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">1547 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest</span>
+                <span class="method-start">74433 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyLoginTest status=SUCCESS method=SLoginTest.verifyLoginTest()[pri:1, instance:...)</span>
+                <span class="method-start">75925 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">76150 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleTest</span>
+                <span class="method-start">78180 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyTitleTest status=SUCCESS method=SLoginTest.verifyTitleTest()[pri:2, instance:...)</span>
+                <span class="method-start">78248 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">78315 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginLogoTest</span>
+                <span class="method-start">80486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyLoginLogoTest status=SUCCESS method=SLoginTest.verifyLoginLogoTest()[pri:3, i...)</span>
+                <span class="method-start">80603 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">80686 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginUrlTest</span>
+                <span class="method-start">82677 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyLoginUrlTest status=SUCCESS method=SLoginTest.verifyLoginUrlTest()[pri:4, ins...)</span>
+                <span class="method-start">82751 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.InventoryPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">82834 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCartPageTest</span>
+                <span class="method-start">85432 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyCartPageTest status=SUCCESS method=InventoryPageTest.verifyCartPageTest()[pri...)</span>
+                <span class="method-start">85841 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">85953 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRemoveBtnTest</span>
+                <span class="method-start">88697 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyRemoveBtnTest status=SUCCESS method=InventoryPageTest.verifyRemoveBtnTest()[p...)</span>
+                <span class="method-start">89503 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">89637 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductTshirtTextTest</span>
+                <span class="method-start">92719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyProductTshirtTextTest status=SUCCESS method=InventoryPageTest.verifyProductTs...)</span>
+                <span class="method-start">93220 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">93304 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyImgTest</span>
+                <span class="method-start">96372 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyImgTest status=SUCCESS method=InventoryPageTest.verifyImgTest()[pri:3, instan...)</span>
+                <span class="method-start">96503 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">96938 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddTOCart</span>
+                <span class="method-start">100256 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyAddTOCart status=SUCCESS method=InventoryPageTest.verifyAddTOCart()[pri:4, in...)</span>
+                <span class="method-start">100973 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">101287 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductTextTest</span>
+                <span class="method-start">105156 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyProductTextTest status=SUCCESS method=InventoryPageTest.verifyProductTextTest...)</span>
+                <span class="method-start">105210 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">105460 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductLogoTest</span>
+                <span class="method-start">108844 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyProductLogoTest status=SUCCESS method=InventoryPageTest.verifyProductLogoTest...)</span>
+                <span class="method-start">109049 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">109233 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySortListTest</span>
+                <span class="method-start">112684 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifySortListTest status=FAILURE method=InventoryPageTest.verifySortListTest()[pri...)</span>
+                <span class="method-start">112892 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">113624 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTwitterElementTest</span>
+                <span class="method-start">117390 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyTwitterElementTest status=SUCCESS method=InventoryPageTest.verifyTwitterEleme...)</span>
+                <span class="method-start">125225 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CartPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">125399 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckOutButton</span>
+                <span class="method-start">128406 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyCheckOutButton status=SUCCESS method=CartPageTest.verifyCheckOutButton()[pri:...)</span>
+                <span class="method-start">128527 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">128651 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyContinueShop</span>
+                <span class="method-start">131989 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyContinueShop status=SUCCESS method=CartPageTest.verifyContinueShop()[pri:1, i...)</span>
+                <span class="method-start">132147 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">132267 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyMenuBarText</span>
+                <span class="method-start">135712 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyMenuBarText status=SUCCESS method=CartPageTest.verifyMenuBarText()[pri:2, ins...)</span>
+                <span class="method-start">136042 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">136301 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyRemoveOrderTest</span>
+                <span class="method-start">139592 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyRemoveOrderTest status=FAILURE method=CartPageTest.verifyRemoveOrderTest()[pr...)</span>
+                <span class="method-start">149647 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">150066 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCartTitkeTest</span>
+                <span class="method-start">154398 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyCartTitkeTest status=SUCCESS method=CartPageTest.verifyCartTitkeTest()[pri:4,...)</span>
+                <span class="method-start">154438 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CheckOutCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">154582 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckoutTitleText</span>
+                <span class="method-start">157439 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyCheckoutTitleText status=SUCCESS method=CheckOutCartTest.verifyCheckoutTitleT...)</span>
+                <span class="method-start">157466 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">157539 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInformation</span>
+                <span class="method-start">160650 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyInformation status=SUCCESS method=CheckOutCartTest.verifyInformation()[pri:1,...)</span>
+                <span class="method-start">161036 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">161179 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCancelBtn</span>
+                <span class="method-start">164020 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyCancelBtn status=SUCCESS method=CheckOutCartTest.verifyCancelBtn()[pri:2, ins...)</span>
+                <span class="method-start">164117 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CheckOutOverviewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">164198 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyOverviewTitleTest</span>
+                <span class="method-start">167370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyOverviewTitleTest status=SUCCESS method=CheckOutOverviewTest.verifyOverviewTi...)</span>
+                <span class="method-start">167399 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">167552 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPaymentInfoTest</span>
+                <span class="method-start">171004 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyPaymentInfoTest status=SUCCESS method=CheckOutOverviewTest.verifyPaymentInfoT...)</span>
+                <span class="method-start">171036 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">171179 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyShipInfoTest</span>
+                <span class="method-start">174471 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyShipInfoTest status=SUCCESS method=CheckOutOverviewTest.verifyShipInfoTest()[...)</span>
+                <span class="method-start">174501 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">174614 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPriceTest</span>
+                <span class="method-start">177923 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyPriceTest status=SUCCESS method=CheckOutOverviewTest.verifyPriceTest()[pri:4,...)</span>
+                <span class="method-start">177956 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">178067 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifytotalPaymentinfoTest</span>
+                <span class="method-start">181584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifytotalPaymentinfoTest status=SUCCESS method=CheckOutOverviewTest.verifytotalPa...)</span>
+                <span class="method-start">181614 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">181742 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCancelBtnTest</span>
+                <span class="method-start">185128 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyCancelBtnTest status=SUCCESS method=CheckOutOverviewTest.verifyCancelBtnTest(...)</span>
+                <span class="method-start">185288 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">185418 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFinishBtnTest</span>
+                <span class="method-start">188742 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyFinishBtnTest status=SUCCESS method=CheckOutOverviewTest.verifyFinishBtnTest(...)</span>
+                <span class="method-start">188900 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CheckOutCompleteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">189043 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleTest</span>
+                <span class="method-start">192445 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyTitleTest status=SUCCESS method=CheckOutCompleteTest.verifyTitleTest()[pri:1,...)</span>
+                <span class="method-start">192478 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">192626 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHeaderTest</span>
+                <span class="method-start">196492 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyHeaderTest status=SUCCESS method=CheckOutCompleteTest.verifyHeaderTest()[pri:...)</span>
+                <span class="method-start">196531 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">196624 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogoTest</span>
+                <span class="method-start">200194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyLogoTest status=SUCCESS method=CheckOutCompleteTest.verifyLogoTest()[pri:3, i...)</span>
+                <span class="method-start">200238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">200389 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTextTest</span>
+                <span class="method-start">203783 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyTextTest status=SUCCESS method=CheckOutCompleteTest.verifyTextTest()[pri:4, i...)</span>
+                <span class="method-start">203828 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">203926 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBackBtn</span>
+                <span class="method-start">207378 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyBackBtn status=SUCCESS method=CheckOutCompleteTest.verifyBackBtn()[pri:5, ins...)</span>
+                <span class="method-start">207513 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CartPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">207604 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CheckOutCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">208108 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CheckOutCompleteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">208216 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CheckOutOverviewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">208313 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.InventoryPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">208402 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.SLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">208491 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

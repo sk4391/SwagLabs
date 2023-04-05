@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="31" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Inventory page Url is : https://www.saucedemo.com/inventory.html]]>
+    </line>
+    <line>
+      <![CDATA[Login Page Title is : Swag Labs]]>
+    </line>
+    <line>
+      <![CDATA[Login Page Logo is :Swag Labs]]>
+    </line>
+    <line>
+      <![CDATA[Login Page URL is :https://www.saucedemo.com/]]>
+    </line>
+    <line>
+      <![CDATA[The Cart Page Url is : https://www.saucedemo.com/cart.html]]>
+    </line>
+    <line>
+      <![CDATA[The Url is : https://www.saucedemo.com/inventory.html]]>
+    </line>
+    <line>
+      <![CDATA[The product url is https://www.saucedemo.com/inventory-item.html?id=1]]>
+    </line>
+    <line>
+      <![CDATA[Product Image is true]]>
+    </line>
+    <line>
+      <![CDATA[Total count : 2]]>
+    </line>
+    <line>
+      <![CDATA[Spelling of product text is : Products]]>
+    </line>
+    <line>
+      <![CDATA[Product lebal is : true]]>
+    </line>
+    <line>
+      <![CDATA[Twitter Element is https://twitter.com/saucelabs]]>
+    </line>
+    <line>
+      <![CDATA[The Url of Next Page is https://www.saucedemo.com/checkout-step-one.html]]>
+    </line>
+    <line>
+      <![CDATA[The Actual Url is : https://www.saucedemo.com/inventory.html]]>
+    </line>
+    <line>
+      <![CDATA[The Url is : https://www.saucedemo.com/inventory.html]]>
+    </line>
+    <line>
+      <![CDATA[The title is : Your Cart]]>
+    </line>
+    <line>
+      <![CDATA[The Title Of Checkout Page Is :Checkout: Your Information]]>
+    </line>
+    <line>
+      <![CDATA[The info URL is https://www.saucedemo.com/checkout-step-two.html]]>
+    </line>
+    <line>
+      <![CDATA[The expected URL is : https://www.saucedemo.com/cart.html]]>
+    </line>
+    <line>
+      <![CDATA[The Overview Page TItle is Checkout: Overview]]>
+    </line>
+    <line>
+      <![CDATA[the Payment info is true]]>
+    </line>
+    <line>
+      <![CDATA[The shipment Info is : true]]>
+    </line>
+    <line>
+      <![CDATA[The price Info is  : true]]>
+    </line>
+    <line>
+      <![CDATA[The Total payment info is :true]]>
+    </line>
+    <line>
+      <![CDATA[After click Cancel button URl shows https://www.saucedemo.com/inventory.html]]>
+    </line>
+    <line>
+      <![CDATA[After click finish Button Url Shows https://www.saucedemo.com/checkout-complete.html]]>
+    </line>
+    <line>
+      <![CDATA[complete TItle is Checkout: Complete!]]>
+    </line>
+    <line>
+      <![CDATA[The complete Page Header is : Thank you for your order!]]>
+    </line>
+    <line>
+      <![CDATA[Logotrue]]>
+    </line>
+    <line>
+      <![CDATA[TEXT true]]>
+    </line>
+    <line>
+      <![CDATA[After click on Back Button :https://www.saucedemo.com/inventory.html]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-04-03T17:32:02 IST" name="Suite" finished-at="2023-04-03T17:35:30 IST" duration-ms="208575">
+    <groups>
+      <group name="Regression">
+        <method signature="InventoryPageTest.verifyProductLogoTest()[pri:6, instance:test.InventoryPageTest@3c19aaa5]" name="verifyProductLogoTest" class="test.InventoryPageTest"/>
+        <method signature="InventoryPageTest.verifyProductTextTest()[pri:5, instance:test.InventoryPageTest@3c19aaa5]" name="verifyProductTextTest" class="test.InventoryPageTest"/>
+        <method signature="SLoginTest.verifyLoginLogoTest()[pri:3, instance:test.SLoginTest@55183b20]" name="verifyLoginLogoTest" class="test.SLoginTest"/>
+        <method signature="SLoginTest.verifyLoginUrlTest()[pri:4, instance:test.SLoginTest@55183b20]" name="verifyLoginUrlTest" class="test.SLoginTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-04-03T17:32:02 IST" name="Test" finished-at="2023-04-03T17:35:30 IST" duration-ms="208575">
+      <class name="test.SLoginTest">
+        <test-method is-config="true" signature="configureReport()[pri:0, instance:test.SLoginTest@55183b20]" started-at="2023-04-03T17:32:03 IST" name="configureReport" finished-at="2023-04-03T17:32:03 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureReport -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.SLoginTest@55183b20]" started-at="2023-04-03T17:32:03 IST" name="launchBrowser" finished-at="2023-04-03T17:33:16 IST" duration-ms="72884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginTest()[pri:1, instance:test.SLoginTest@55183b20]" started-at="2023-04-03T17:33:16 IST" name="verifyLoginTest" finished-at="2023-04-03T17:33:18 IST" duration-ms="1486" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Inventory page Url is : https://www.saucedemo.com/inventory.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.SLoginTest@55183b20]" started-at="2023-04-03T17:33:18 IST" name="closeBrowser" finished-at="2023-04-03T17:33:18 IST" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginTest status=SUCCESS method=SLoginTest.verifyLoginTest()[pri:1, instance:test.SLoginTest@55183b20] output=Inventory page Url is : https://www.saucedemo.com/inventory.html]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.SLoginTest@55183b20]" started-at="2023-04-03T17:33:18 IST" name="launchBrowser" finished-at="2023-04-03T17:33:20 IST" duration-ms="2029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyTitleTest()[pri:2, instance:test.SLoginTest@55183b20]" started-at="2023-04-03T17:33:20 IST" name="verifyTitleTest" finished-at="2023-04-03T17:33:20 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page Title is : Swag Labs]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.SLoginTest@55183b20]" started-at="2023-04-03T17:33:20 IST" name="closeBrowser" finished-at="2023-04-03T17:33:20 IST" duration-ms="66" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitleTest status=SUCCESS method=SLoginTest.verifyTitleTest()[pri:2, instance:test.SLoginTest@55183b20] output=Login Page Title is : Swag Labs]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.SLoginTest@55183b20]" started-at="2023-04-03T17:33:20 IST" name="launchBrowser" finished-at="2023-04-03T17:33:22 IST" duration-ms="2171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginLogoTest()[pri:3, instance:test.SLoginTest@55183b20]" started-at="2023-04-03T17:33:22 IST" name="verifyLoginLogoTest" finished-at="2023-04-03T17:33:22 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page Logo is :Swag Labs]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginLogoTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.SLoginTest@55183b20]" started-at="2023-04-03T17:33:22 IST" name="closeBrowser" finished-at="2023-04-03T17:33:22 IST" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginLogoTest status=SUCCESS method=SLoginTest.verifyLoginLogoTest()[pri:3, instance:test.SLoginTest@55183b20] output=Login Page Logo is :Swag Labs]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.SLoginTest@55183b20]" started-at="2023-04-03T17:33:22 IST" name="launchBrowser" finished-at="2023-04-03T17:33:24 IST" duration-ms="1991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginUrlTest()[pri:4, instance:test.SLoginTest@55183b20]" started-at="2023-04-03T17:33:24 IST" name="verifyLoginUrlTest" finished-at="2023-04-03T17:33:25 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page URL is :https://www.saucedemo.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginUrlTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.SLoginTest@55183b20]" started-at="2023-04-03T17:33:25 IST" name="closeBrowser" finished-at="2023-04-03T17:33:25 IST" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginUrlTest status=SUCCESS method=SLoginTest.verifyLoginUrlTest()[pri:4, instance:test.SLoginTest@55183b20] output=Login Page URL is :https://www.saucedemo.com/]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:test.SLoginTest@55183b20]" started-at="2023-04-03T17:35:30 IST" name="flushReports" finished-at="2023-04-03T17:35:30 IST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- test.SLoginTest -->
+      <class name="test.CheckOutOverviewTest">
+        <test-method is-config="true" signature="configureReport()[pri:0, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:32:03 IST" name="configureReport" finished-at="2023-04-03T17:32:03 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureReport -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:34:46 IST" name="launchApplication" finished-at="2023-04-03T17:34:49 IST" duration-ms="3172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyOverviewTitleTest()[pri:1, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:34:49 IST" name="verifyOverviewTitleTest" finished-at="2023-04-03T17:34:49 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Overview Page TItle is Checkout: Overview]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyOverviewTitleTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:34:49 IST" name="closeBrowser" finished-at="2023-04-03T17:34:49 IST" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOverviewTitleTest status=SUCCESS method=CheckOutOverviewTest.verifyOverviewTitleTest()[pri:1, instance:test.CheckOutOverviewTest@38d8f54a] output=The Overview Page TItle is Checkout: Overview]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:34:49 IST" name="launchApplication" finished-at="2023-04-03T17:34:53 IST" duration-ms="3452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyPaymentInfoTest()[pri:2, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:34:53 IST" name="verifyPaymentInfoTest" finished-at="2023-04-03T17:34:53 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the Payment info is true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentInfoTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:34:53 IST" name="closeBrowser" finished-at="2023-04-03T17:34:53 IST" duration-ms="143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPaymentInfoTest status=SUCCESS method=CheckOutOverviewTest.verifyPaymentInfoTest()[pri:2, instance:test.CheckOutOverviewTest@38d8f54a] output=the Payment info is true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:34:53 IST" name="launchApplication" finished-at="2023-04-03T17:34:56 IST" duration-ms="3292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyShipInfoTest()[pri:3, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:34:56 IST" name="verifyShipInfoTest" finished-at="2023-04-03T17:34:56 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The shipment Info is : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyShipInfoTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:34:56 IST" name="closeBrowser" finished-at="2023-04-03T17:34:56 IST" duration-ms="113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyShipInfoTest status=SUCCESS method=CheckOutOverviewTest.verifyShipInfoTest()[pri:3, instance:test.CheckOutOverviewTest@38d8f54a] output=The shipment Info is : true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:34:56 IST" name="launchApplication" finished-at="2023-04-03T17:35:00 IST" duration-ms="3309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyPriceTest()[pri:4, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:35:00 IST" name="verifyPriceTest" finished-at="2023-04-03T17:35:00 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The price Info is  : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPriceTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:35:00 IST" name="closeBrowser" finished-at="2023-04-03T17:35:00 IST" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPriceTest status=SUCCESS method=CheckOutOverviewTest.verifyPriceTest()[pri:4, instance:test.CheckOutOverviewTest@38d8f54a] output=The price Info is  : true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:35:00 IST" name="launchApplication" finished-at="2023-04-03T17:35:03 IST" duration-ms="3517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifytotalPaymentinfoTest()[pri:5, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:35:03 IST" name="verifytotalPaymentinfoTest" finished-at="2023-04-03T17:35:03 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Total payment info is :true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifytotalPaymentinfoTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:35:03 IST" name="closeBrowser" finished-at="2023-04-03T17:35:04 IST" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytotalPaymentinfoTest status=SUCCESS method=CheckOutOverviewTest.verifytotalPaymentinfoTest()[pri:5, instance:test.CheckOutOverviewTest@38d8f54a] output=The Total payment info is :true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:35:04 IST" name="launchApplication" finished-at="2023-04-03T17:35:07 IST" duration-ms="3386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyCancelBtnTest()[pri:6, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:35:07 IST" name="verifyCancelBtnTest" finished-at="2023-04-03T17:35:07 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After click Cancel button URl shows https://www.saucedemo.com/inventory.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCancelBtnTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:35:07 IST" name="closeBrowser" finished-at="2023-04-03T17:35:07 IST" duration-ms="129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCancelBtnTest status=SUCCESS method=CheckOutOverviewTest.verifyCancelBtnTest()[pri:6, instance:test.CheckOutOverviewTest@38d8f54a] output=After click Cancel button URl shows https://www.saucedemo.com/inventory.html]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:35:07 IST" name="launchApplication" finished-at="2023-04-03T17:35:11 IST" duration-ms="3324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyFinishBtnTest()[pri:7, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:35:11 IST" name="verifyFinishBtnTest" finished-at="2023-04-03T17:35:11 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After click finish Button Url Shows https://www.saucedemo.com/checkout-complete.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyFinishBtnTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:35:11 IST" name="closeBrowser" finished-at="2023-04-03T17:35:11 IST" duration-ms="142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFinishBtnTest status=SUCCESS method=CheckOutOverviewTest.verifyFinishBtnTest()[pri:7, instance:test.CheckOutOverviewTest@38d8f54a] output=After click finish Button Url Shows https://www.saucedemo.com/checkout-complete.html]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:test.CheckOutOverviewTest@38d8f54a]" started-at="2023-04-03T17:35:30 IST" name="flushReports" finished-at="2023-04-03T17:35:30 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- test.CheckOutOverviewTest -->
+      <class name="test.InventoryPageTest">
+        <test-method is-config="true" signature="configureReport()[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:32:03 IST" name="configureReport" finished-at="2023-04-03T17:32:03 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureReport -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:25 IST" name="launchBrowser" finished-at="2023-04-03T17:33:27 IST" duration-ms="2596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyCartPageTest()[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:27 IST" name="verifyCartPageTest" finished-at="2023-04-03T17:33:28 IST" duration-ms="405" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Cart Page Url is : https://www.saucedemo.com/cart.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartPageTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:28 IST" name="closeBrowser" finished-at="2023-04-03T17:33:28 IST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCartPageTest status=SUCCESS method=InventoryPageTest.verifyCartPageTest()[pri:0, instance:test.InventoryPageTest@3c19aaa5] output=The Cart Page Url is : https://www.saucedemo.com/cart.html]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:28 IST" name="launchBrowser" finished-at="2023-04-03T17:33:30 IST" duration-ms="2744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyRemoveBtnTest()[pri:1, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:30 IST" name="verifyRemoveBtnTest" finished-at="2023-04-03T17:33:31 IST" duration-ms="801" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Url is : https://www.saucedemo.com/inventory.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRemoveBtnTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:31 IST" name="closeBrowser" finished-at="2023-04-03T17:33:31 IST" duration-ms="133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRemoveBtnTest status=SUCCESS method=InventoryPageTest.verifyRemoveBtnTest()[pri:1, instance:test.InventoryPageTest@3c19aaa5] output=The Url is : https://www.saucedemo.com/inventory.html]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:31 IST" name="launchBrowser" finished-at="2023-04-03T17:33:34 IST" duration-ms="3082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyProductTshirtTextTest()[pri:2, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:34 IST" name="verifyProductTshirtTextTest" finished-at="2023-04-03T17:33:35 IST" duration-ms="494" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The product url is https://www.saucedemo.com/inventory-item.html?id=1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductTshirtTextTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:35 IST" name="closeBrowser" finished-at="2023-04-03T17:33:35 IST" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductTshirtTextTest status=SUCCESS method=InventoryPageTest.verifyProductTshirtTextTest()[pri:2, instance:test.InventoryPageTest@3c19aaa5] output=The product url is https://www.saucedemo.com/inventory-item.html?id=1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:35 IST" name="launchBrowser" finished-at="2023-04-03T17:33:38 IST" duration-ms="3066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyImgTest()[pri:3, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:38 IST" name="verifyImgTest" finished-at="2023-04-03T17:33:38 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product Image is true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyImgTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:38 IST" name="closeBrowser" finished-at="2023-04-03T17:33:39 IST" duration-ms="434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyImgTest status=SUCCESS method=InventoryPageTest.verifyImgTest()[pri:3, instance:test.InventoryPageTest@3c19aaa5] output=Product Image is true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:39 IST" name="launchBrowser" finished-at="2023-04-03T17:33:42 IST" duration-ms="3318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyAddTOCart()[pri:4, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:42 IST" name="verifyAddTOCart" finished-at="2023-04-03T17:33:43 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Total count : 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAddTOCart -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:43 IST" name="closeBrowser" finished-at="2023-04-03T17:33:43 IST" duration-ms="313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddTOCart status=SUCCESS method=InventoryPageTest.verifyAddTOCart()[pri:4, instance:test.InventoryPageTest@3c19aaa5] output=Total count : 2]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:43 IST" name="launchBrowser" finished-at="2023-04-03T17:33:47 IST" duration-ms="3869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyProductTextTest()[pri:5, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:47 IST" name="verifyProductTextTest" finished-at="2023-04-03T17:33:47 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Spelling of product text is : Products]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductTextTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:47 IST" name="closeBrowser" finished-at="2023-04-03T17:33:47 IST" duration-ms="249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductTextTest status=SUCCESS method=InventoryPageTest.verifyProductTextTest()[pri:5, instance:test.InventoryPageTest@3c19aaa5] output=Spelling of product text is : Products]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:47 IST" name="launchBrowser" finished-at="2023-04-03T17:33:51 IST" duration-ms="3384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyProductLogoTest()[pri:6, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:51 IST" name="verifyProductLogoTest" finished-at="2023-04-03T17:33:51 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product lebal is : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductLogoTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:51 IST" name="closeBrowser" finished-at="2023-04-03T17:33:51 IST" duration-ms="183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductLogoTest status=SUCCESS method=InventoryPageTest.verifyProductLogoTest()[pri:6, instance:test.InventoryPageTest@3c19aaa5] output=Product lebal is : true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:51 IST" name="launchBrowser" finished-at="2023-04-03T17:33:54 IST" duration-ms="3451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifySortListTest()[pri:7, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:54 IST" name="verifySortListTest" finished-at="2023-04-03T17:33:55 IST" duration-ms="207" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Name (A to Z)
+Name (Z to A)
+Price (low to high)
+Price (high to low)] but found [Name (A to Z) Name (Z to A) Price (low to high) Price (high to low)]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Name (A to Z)
+Name (Z to A)
+Price (low to high)
+Price (high to low)] but found [Name (A to Z) Name (Z to A) Price (low to high) Price (high to low)]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at test.InventoryPageTest.verifySortListTest(InventoryPageTest.java:115)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortListTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:55 IST" name="closeBrowser" finished-at="2023-04-03T17:33:55 IST" duration-ms="731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySortListTest status=FAILURE method=InventoryPageTest.verifySortListTest()[pri:7, instance:test.InventoryPageTest@3c19aaa5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:55 IST" name="launchBrowser" finished-at="2023-04-03T17:33:59 IST" duration-ms="3766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyTwitterElementTest()[pri:8, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:33:59 IST" name="verifyTwitterElementTest" finished-at="2023-04-03T17:34:07 IST" duration-ms="7833" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Twitter Element is https://twitter.com/saucelabs]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTwitterElementTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:34:07 IST" name="closeBrowser" finished-at="2023-04-03T17:34:07 IST" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTwitterElementTest status=SUCCESS method=InventoryPageTest.verifyTwitterElementTest()[pri:8, instance:test.InventoryPageTest@3c19aaa5] output=Twitter Element is https://twitter.com/saucelabs]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:test.InventoryPageTest@3c19aaa5]" started-at="2023-04-03T17:35:30 IST" name="flushReports" finished-at="2023-04-03T17:35:30 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- test.InventoryPageTest -->
+      <class name="test.CheckOutCartTest">
+        <test-method is-config="true" signature="configureReport()[pri:0, instance:test.CheckOutCartTest@409bf450]" started-at="2023-04-03T17:32:03 IST" name="configureReport" finished-at="2023-04-03T17:32:03 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureReport -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CheckOutCartTest@409bf450]" started-at="2023-04-03T17:34:36 IST" name="launchApplication" finished-at="2023-04-03T17:34:39 IST" duration-ms="2857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyCheckoutTitleText()[pri:0, instance:test.CheckOutCartTest@409bf450]" started-at="2023-04-03T17:34:39 IST" name="verifyCheckoutTitleText" finished-at="2023-04-03T17:34:39 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Title Of Checkout Page Is :Checkout: Your Information]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutTitleText -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.CheckOutCartTest@409bf450]" started-at="2023-04-03T17:34:39 IST" name="closeBrowser" finished-at="2023-04-03T17:34:39 IST" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckoutTitleText status=SUCCESS method=CheckOutCartTest.verifyCheckoutTitleText()[pri:0, instance:test.CheckOutCartTest@409bf450] output=The Title Of Checkout Page Is :Checkout: Your Information]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CheckOutCartTest@409bf450]" started-at="2023-04-03T17:34:39 IST" name="launchApplication" finished-at="2023-04-03T17:34:42 IST" duration-ms="3111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyInformation()[pri:1, instance:test.CheckOutCartTest@409bf450]" started-at="2023-04-03T17:34:42 IST" name="verifyInformation" finished-at="2023-04-03T17:34:43 IST" duration-ms="385" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The info URL is https://www.saucedemo.com/checkout-step-two.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInformation -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.CheckOutCartTest@409bf450]" started-at="2023-04-03T17:34:43 IST" name="closeBrowser" finished-at="2023-04-03T17:34:43 IST" duration-ms="142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInformation status=SUCCESS method=CheckOutCartTest.verifyInformation()[pri:1, instance:test.CheckOutCartTest@409bf450] output=The info URL is https://www.saucedemo.com/checkout-step-two.html]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CheckOutCartTest@409bf450]" started-at="2023-04-03T17:34:43 IST" name="launchApplication" finished-at="2023-04-03T17:34:46 IST" duration-ms="2841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyCancelBtn()[pri:2, instance:test.CheckOutCartTest@409bf450]" started-at="2023-04-03T17:34:46 IST" name="verifyCancelBtn" finished-at="2023-04-03T17:34:46 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The expected URL is : https://www.saucedemo.com/cart.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCancelBtn -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.CheckOutCartTest@409bf450]" started-at="2023-04-03T17:34:46 IST" name="closeBrowser" finished-at="2023-04-03T17:34:46 IST" duration-ms="80" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCancelBtn status=SUCCESS method=CheckOutCartTest.verifyCancelBtn()[pri:2, instance:test.CheckOutCartTest@409bf450] output=The expected URL is : https://www.saucedemo.com/cart.html]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:test.CheckOutCartTest@409bf450]" started-at="2023-04-03T17:35:30 IST" name="flushReports" finished-at="2023-04-03T17:35:30 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- test.CheckOutCartTest -->
+      <class name="test.CartPageTest">
+        <test-method is-config="true" signature="configureReport()[pri:0, instance:test.CartPageTest@3349e9bb]" started-at="2023-04-03T17:32:02 IST" name="configureReport" finished-at="2023-04-03T17:32:03 IST" duration-ms="1351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureReport -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CartPageTest@3349e9bb]" started-at="2023-04-03T17:34:07 IST" name="launchApplication" finished-at="2023-04-03T17:34:10 IST" duration-ms="3007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyCheckOutButton()[pri:0, instance:test.CartPageTest@3349e9bb]" started-at="2023-04-03T17:34:10 IST" name="verifyCheckOutButton" finished-at="2023-04-03T17:34:10 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Url of Next Page is https://www.saucedemo.com/checkout-step-one.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckOutButton -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.CartPageTest@3349e9bb]" started-at="2023-04-03T17:34:10 IST" name="closeBrowser" finished-at="2023-04-03T17:34:10 IST" duration-ms="123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckOutButton status=SUCCESS method=CartPageTest.verifyCheckOutButton()[pri:0, instance:test.CartPageTest@3349e9bb] output=The Url of Next Page is https://www.saucedemo.com/checkout-step-one.html]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CartPageTest@3349e9bb]" started-at="2023-04-03T17:34:10 IST" name="launchApplication" finished-at="2023-04-03T17:34:14 IST" duration-ms="3338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyContinueShop()[pri:1, instance:test.CartPageTest@3349e9bb]" started-at="2023-04-03T17:34:14 IST" name="verifyContinueShop" finished-at="2023-04-03T17:34:14 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Actual Url is : https://www.saucedemo.com/inventory.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyContinueShop -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.CartPageTest@3349e9bb]" started-at="2023-04-03T17:34:14 IST" name="closeBrowser" finished-at="2023-04-03T17:34:14 IST" duration-ms="119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContinueShop status=SUCCESS method=CartPageTest.verifyContinueShop()[pri:1, instance:test.CartPageTest@3349e9bb] output=The Actual Url is : https://www.saucedemo.com/inventory.html]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CartPageTest@3349e9bb]" started-at="2023-04-03T17:34:14 IST" name="launchApplication" finished-at="2023-04-03T17:34:17 IST" duration-ms="3445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyMenuBarText()[pri:2, instance:test.CartPageTest@3349e9bb]" started-at="2023-04-03T17:34:17 IST" name="verifyMenuBarText" finished-at="2023-04-03T17:34:18 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Url is : https://www.saucedemo.com/inventory.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMenuBarText -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.CartPageTest@3349e9bb]" started-at="2023-04-03T17:34:18 IST" name="closeBrowser" finished-at="2023-04-03T17:34:18 IST" duration-ms="258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMenuBarText status=SUCCESS method=CartPageTest.verifyMenuBarText()[pri:2, instance:test.CartPageTest@3349e9bb] output=The Url is : https://www.saucedemo.com/inventory.html]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CartPageTest@3349e9bb]" started-at="2023-04-03T17:34:18 IST" name="launchApplication" finished-at="2023-04-03T17:34:21 IST" duration-ms="3291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyRemoveOrderTest()[pri:3, instance:test.CartPageTest@3349e9bb]" started-at="2023-04-03T17:34:21 IST" name="verifyRemoveOrderTest" finished-at="2023-04-03T17:34:31 IST" duration-ms="10048" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@name='remove-sauce-labs-bike-light']"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-T3SB9B3U', ip: '192.168.43.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db6967421a50f2926f69187ed135269c, findElement {using=xpath, value=//button[@name='remove-sauce-labs-bike-light']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\khama\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62774}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62774/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db6967421a50f2926f69187ed135269c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@name='remove-sauce-labs-bike-light']"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-T3SB9B3U', ip: '192.168.43.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db6967421a50f2926f69187ed135269c, findElement {using=xpath, value=//button[@name='remove-sauce-labs-bike-light']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\khama\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62774}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62774/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db6967421a50f2926f69187ed135269c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at pom.CartPage.verifyRemoveOrderElement(CartPage.java:40)
+at test.CartPageTest.verifyRemoveOrderTest(CartPageTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRemoveOrderTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.CartPageTest@3349e9bb]" started-at="2023-04-03T17:34:31 IST" name="closeBrowser" finished-at="2023-04-03T17:34:32 IST" duration-ms="418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRemoveOrderTest status=FAILURE method=CartPageTest.verifyRemoveOrderTest()[pri:3, instance:test.CartPageTest@3349e9bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CartPageTest@3349e9bb]" started-at="2023-04-03T17:34:32 IST" name="launchApplication" finished-at="2023-04-03T17:34:36 IST" duration-ms="4332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyCartTitkeTest()[pri:4, instance:test.CartPageTest@3349e9bb]" started-at="2023-04-03T17:34:36 IST" name="verifyCartTitkeTest" finished-at="2023-04-03T17:34:36 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The title is : Your Cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartTitkeTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.CartPageTest@3349e9bb]" started-at="2023-04-03T17:34:36 IST" name="closeBrowser" finished-at="2023-04-03T17:34:36 IST" duration-ms="143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCartTitkeTest status=SUCCESS method=CartPageTest.verifyCartTitkeTest()[pri:4, instance:test.CartPageTest@3349e9bb] output=The title is : Your Cart]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:test.CartPageTest@3349e9bb]" started-at="2023-04-03T17:35:29 IST" name="flushReports" finished-at="2023-04-03T17:35:30 IST" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- test.CartPageTest -->
+      <class name="test.CheckOutCompleteTest">
+        <test-method is-config="true" signature="configureReport()[pri:0, instance:test.CheckOutCompleteTest@49e53c76]" started-at="2023-04-03T17:32:03 IST" name="configureReport" finished-at="2023-04-03T17:32:03 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureReport -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CheckOutCompleteTest@49e53c76]" started-at="2023-04-03T17:35:11 IST" name="launchApplication" finished-at="2023-04-03T17:35:14 IST" duration-ms="3402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyTitleTest()[pri:1, instance:test.CheckOutCompleteTest@49e53c76]" started-at="2023-04-03T17:35:14 IST" name="verifyTitleTest" finished-at="2023-04-03T17:35:14 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[complete TItle is Checkout: Complete!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.CheckOutCompleteTest@49e53c76]" started-at="2023-04-03T17:35:14 IST" name="closeBrowser" finished-at="2023-04-03T17:35:14 IST" duration-ms="147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitleTest status=SUCCESS method=CheckOutCompleteTest.verifyTitleTest()[pri:1, instance:test.CheckOutCompleteTest@49e53c76] output=complete TItle is Checkout: Complete!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CheckOutCompleteTest@49e53c76]" started-at="2023-04-03T17:35:14 IST" name="launchApplication" finished-at="2023-04-03T17:35:18 IST" duration-ms="3866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyHeaderTest()[pri:2, instance:test.CheckOutCompleteTest@49e53c76]" started-at="2023-04-03T17:35:18 IST" name="verifyHeaderTest" finished-at="2023-04-03T17:35:18 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The complete Page Header is : Thank you for your order!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.CheckOutCompleteTest@49e53c76]" started-at="2023-04-03T17:35:18 IST" name="closeBrowser" finished-at="2023-04-03T17:35:18 IST" duration-ms="93" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHeaderTest status=SUCCESS method=CheckOutCompleteTest.verifyHeaderTest()[pri:2, instance:test.CheckOutCompleteTest@49e53c76] output=The complete Page Header is : Thank you for your order!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CheckOutCompleteTest@49e53c76]" started-at="2023-04-03T17:35:18 IST" name="launchApplication" finished-at="2023-04-03T17:35:22 IST" duration-ms="3570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyLogoTest()[pri:3, instance:test.CheckOutCompleteTest@49e53c76]" started-at="2023-04-03T17:35:22 IST" name="verifyLogoTest" finished-at="2023-04-03T17:35:22 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logotrue]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogoTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.CheckOutCompleteTest@49e53c76]" started-at="2023-04-03T17:35:22 IST" name="closeBrowser" finished-at="2023-04-03T17:35:22 IST" duration-ms="151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogoTest status=SUCCESS method=CheckOutCompleteTest.verifyLogoTest()[pri:3, instance:test.CheckOutCompleteTest@49e53c76] output=Logotrue]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CheckOutCompleteTest@49e53c76]" started-at="2023-04-03T17:35:22 IST" name="launchApplication" finished-at="2023-04-03T17:35:26 IST" duration-ms="3394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyTextTest()[pri:4, instance:test.CheckOutCompleteTest@49e53c76]" started-at="2023-04-03T17:35:26 IST" name="verifyTextTest" finished-at="2023-04-03T17:35:26 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TEXT true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTextTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.CheckOutCompleteTest@49e53c76]" started-at="2023-04-03T17:35:26 IST" name="closeBrowser" finished-at="2023-04-03T17:35:26 IST" duration-ms="97" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTextTest status=SUCCESS method=CheckOutCompleteTest.verifyTextTest()[pri:4, instance:test.CheckOutCompleteTest@49e53c76] output=TEXT true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:test.CheckOutCompleteTest@49e53c76]" started-at="2023-04-03T17:35:26 IST" name="launchApplication" finished-at="2023-04-03T17:35:29 IST" duration-ms="3452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyBackBtn()[pri:5, instance:test.CheckOutCompleteTest@49e53c76]" started-at="2023-04-03T17:35:29 IST" name="verifyBackBtn" finished-at="2023-04-03T17:35:29 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After click on Back Button :https://www.saucedemo.com/inventory.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyBackBtn -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.CheckOutCompleteTest@49e53c76]" started-at="2023-04-03T17:35:29 IST" name="closeBrowser" finished-at="2023-04-03T17:35:29 IST" duration-ms="90" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBackBtn status=SUCCESS method=CheckOutCompleteTest.verifyBackBtn()[pri:5, instance:test.CheckOutCompleteTest@49e53c76] output=After click on Back Button :https://www.saucedemo.com/inventory.html]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:test.CheckOutCompleteTest@49e53c76]" started-at="2023-04-03T17:35:30 IST" name="flushReports" finished-at="2023-04-03T17:35:30 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- test.CheckOutCompleteTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
